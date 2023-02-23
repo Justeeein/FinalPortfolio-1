@@ -1054,7 +1054,7 @@ h3, p{
   color: #e2d522;
   line-height: 80px;
   letter-spacing: 2rem;
-  font-size: 30px;
+  font-size: 3vw;
 }
 .coffeine-loc .loc-details p{
   text-align: center;
@@ -1140,6 +1140,13 @@ textarea:valid~label{
 }
 .row-contacts .input-group{
     flex-basis: 48%;
+}
+@media(max-width: 500px){
+    .loc-details h2{
+        font-size: 3vw;
+        letter-spacing: 1rem;
+    }
+
 }
 /*              MEDIA QUERIES               */
 @media only screen and (max-width: 1000px) {
@@ -1345,8 +1352,3 @@ textarea:valid~label{
         z-index: 2;
     }
   }
-@media (max-width: 1000px){
-    .back-coffeedia, .back-menu, .back-about, .back-contacts{
-        height: 100px;
-    }
-}
