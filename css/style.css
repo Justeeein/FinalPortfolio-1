@@ -467,17 +467,7 @@ nav ul li span:nth-child(4) {
 .back-coffeedia{
     width: 100%;
     height: 6vw;
-    background-size: cover;
-    background-attachment: fixed;
     position: relative;
-}
-.coffeedia{
-    text-align: center;
-    background-color: rgb(216, 154, 72);
-}
-.coffeedia-1{
-    width: 80%;
-    margin: 0px auto;
 }
 .header-coffee-container{
     background-image: linear-gradient(rgba(236, 171, 110, 0.7), rgba(206, 143, 8, 0.7));
@@ -499,6 +489,14 @@ nav ul li span:nth-child(4) {
     color: #fff;
     letter-spacing: 20px;
     font-size: 2rem;
+}
+.coffeedia{
+    text-align: center;
+    background-color: rgb(216, 154, 72);
+}
+.coffeedia-1{
+    width: 80%;
+    margin: 0px auto;
 }
 .header-coffeedia h1{
     letter-spacing: 2vw;
@@ -535,7 +533,7 @@ nav ul li span:nth-child(4) {
 .container-coffeedia{
     display: flex;
     justify-content: space-between;
-    margin: 1rem 2rem;
+    margin: 0 auto;
 }
 .coffeedia-col-1{
     flex-basis: 31%;
@@ -1147,15 +1145,11 @@ textarea:valid~label{
     .container-coffeedia{
         width: 80%;
         display: block;
-        margin: 8% auto;
         align-items: center;
         padding-bottom: 5%;
     }
     .header-coffeedia h1{
         font-size: 40px;
-    }
-    .back-coffeedia{
-        height: 12vw;
     }
     
 }
@@ -1345,8 +1339,3 @@ textarea:valid~label{
         z-index: 2;
     }
   }
-@media (max-width: 1000px){
-    .back-coffeedia, .back-menu, .back-about, .back-contacts{
-        height: 100px;
-    }
-}
