@@ -54,7 +54,7 @@ h6{
     vertical-align: middle;
     border: 2px solid transparent;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 48px;
     color: rgb(145, 95, 21);
     position: relative;
@@ -258,25 +258,23 @@ hr{
     filter: drop-shadow(20px 10px 4px var(--medyo-cream));
 }
 .coffeine-text h6{
-    color: var(--light-brown);
+    color: var(--brown);
     display: block;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 4vw;
     text-transform: capitalize;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Lucida Grande', Verdana;
 }
 .coffeine-text p{
     margin: 0;
     margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 3vw;
+    font-weight: 600%;
 }
 .coffeine-text p{
-    font-size: 22px;
-    line-height: 50px;
     display: block;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
+    color: var(--medyo-cream);
+    font-weight: 800;
     text-transform: capitalize;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 5px;
@@ -303,7 +301,6 @@ hr{
     background-color: transparent;
     border: 2px solid var(--brown);
     line-height: 50px;
-    box-shadow: 0 3px 6px 0rgba(0,0,0,0, 15);
     transition: 0.5s;
 
 }
@@ -335,7 +332,7 @@ hr{
 }
 .coffeine-loc-index .loc-details-index h6,
   h3, p{
-    margin: 30px auto;
+    margin: 0px auto;
 }
 .coffeine-loc-index .loc-details-index h6{
     color: #2D1E0D;
@@ -369,9 +366,8 @@ hr{
     width: 100%;
     text-align: center;
     color: #e2d522;
-    line-height: 80px;
     letter-spacing: 2rem;
-    font-size: 30px;
+    font-size: 3vw;
 }
 .coffeine-loc-index .loc-details-index p{
     text-align: center;
@@ -456,7 +452,13 @@ nav ul li span:nth-child(3) {
 nav ul li span:nth-child(4) {
     --n: 4;
 }
+@media(max-width: 500px){
+    .loc-details-index h2{
+        font-size: 3vw;
+        letter-spacing: 1rem;
+    }
 
+}
 
 .coffeedia .index{
   padding-top: 100px;
@@ -464,8 +466,7 @@ nav ul li span:nth-child(4) {
 /*                                COFFEEDIA                               */
 .back-coffeedia{
     width: 100%;
-    height: 1.5vh;
-    margin-top: 5%;
+    height: 6vw;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -473,7 +474,6 @@ nav ul li span:nth-child(4) {
 .coffeedia{
     text-align: center;
     background-color: rgb(216, 154, 72);
-    padding-top: 50px; 
 }
 .coffeedia-1{
     width: 80%;
@@ -509,8 +509,8 @@ nav ul li span:nth-child(4) {
     display: block;
 }
 .header-coffeedia p{
-    font-size: 25px;
-    letter-spacing: 5px;
+    font-size: 2vw;
+    letter-spacing: 2px;
     text-transform: capitalize;
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -530,7 +530,7 @@ nav ul li span:nth-child(4) {
 }
 .def-coffeedia p{
     color: #fff;
-    font-size: 18px;
+    font-size: 1rem;
 }
 .container-coffeedia{
     display: flex;
@@ -540,7 +540,7 @@ nav ul li span:nth-child(4) {
 .coffeedia-col-1{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-top: 5;
+    margin-top: 5%;
     margin-bottom: 5%;
     background-color: #fff;
     padding: 1rem;
@@ -553,32 +553,34 @@ nav ul li span:nth-child(4) {
     height: 40vh;
 }
 .coffeedia-col-1 h3{
-    text-align: left;
-    font-size: 50px;
-    margin-top: 8px;
+    margin-top: 5%;
     font-size: 2rem;
     text-align: center;
 }
 .coffeedia-col-1 p{
-    padding: 0%;
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(170, 90, 14);
 }
-
-@media(max-width: 450px){
-    .header-coffeedia h1{
-        letter-spacing: 0;
+@media(max-width: 800px){
+    .coffeedia-col-1 img{
+        height: 30vh;
     }
-    .def-coffeedia{
-        width: 100%;
-        margin: 0;
+}
+@media(max-width: 500px){
+    .coffeedia-col-1 img{
+        height: 20vh;
+    }
+}
+@media(max-width: 450px){
+    .header-coffeedia h1, p{
+        letter-spacing: 0;
     }
     
 }
 /*                                MENU                                */
 .back-menu{
     width: 100%;
-    height: 2vw;
+    height: 6vw;
     position: relative;
 }
 .header-menu-container{
@@ -607,7 +609,7 @@ nav ul li span:nth-child(4) {
     background-color: var(--medyo-dark-brown);
 }
 .header-brew h2{
-    font-size: 5rem;
+    font-size: 8vw;
     color: var(--medyo-cream);
     text-transform: capitalize;
 }
@@ -617,7 +619,7 @@ nav ul li span:nth-child(4) {
     background-color: rgb(168, 85, 2);
 }
 .header-container h3{
-    font-size: 60px;
+    font-size: 3vw;
     text-align: left;
 }
 .menu h3{
@@ -629,7 +631,6 @@ nav ul li span:nth-child(4) {
 /*              BEST SELLING               */
 .menu{
     text-align: center;
-    padding-top: 50px; 
     width: 100%;
     margin: auto;
 }
@@ -639,7 +640,7 @@ nav ul li span:nth-child(4) {
     background-color: var(--cream);
 }
 .menu-2 h3{
-    font-size: 10vw;
+    font-size: 5vw;
 }
 .row {
   display: -ms-flexbox;
@@ -648,7 +649,7 @@ nav ul li span:nth-child(4) {
   flex-wrap: wrap;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding: 0 20px;
   justify-content: space-around;
 }
@@ -708,9 +709,6 @@ nav ul li span:nth-child(4) {
 .section-1 h3{
   width: 85%;
 }
-
-  
-
 /*                                 ABOUT                                  */
 .back-about{
     width: 100%;
@@ -793,7 +791,7 @@ nav ul li span:nth-child(4) {
     height: auto;
     background-color: rgb(238, 136, 11);
     color: var(--dark-brown);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     margin: 10px;
     padding: 5px;
@@ -813,6 +811,7 @@ nav ul li span:nth-child(4) {
     margin: 50px auto;
     display: flex;
     background-color: var(--fav-color);
+    border-radius: 10px;
 }
 .container-3-about img{
     max-width: 250px;
@@ -822,32 +821,34 @@ nav ul li span:nth-child(4) {
 .details-ceo{
     flex: 1;
     text-align: center;
+   
 }
 .details-ceo h2{
-    margin: 30px;
+    margin: 5px;
     color: white;
-    font-size: 50px;
+    font-size: 5vw;
     text-decoration:underline var(--medyo-dark-brown);
 }
-.details-ceo p{
-    margin: 50px 30px; 
+.details-ceo .ceo-p-container p{
+    margin: 1rem; 
     color: var(--medyo-dark-brown);
     font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 2vw;
+    padding-bottom: 10px;
 }
 @media (max-width: 1000px) {
     .container-1-about{
         display: block;
         padding: auto 30px;
     }
-    .container-1-about img{
+    .container-1-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
-        max-width: 300px;
-        display: block;
         margin: 0 auto;
-        margin-left: 15%;
     }
+   
     .container-1-det{
         padding: 30px;
     }
@@ -1024,7 +1025,7 @@ nav ul li span:nth-child(4) {
 }
 .coffeine-loc .loc-details h6,
 h3, p{
-  margin: 30px auto;
+  margin: 20px auto;
 }
 .coffeine-loc .loc-details h6{
   color: #2D1E0D;
@@ -1343,3 +1344,8 @@ textarea:valid~label{
         z-index: 2;
     }
   }
+@media (max-width: 1000px){
+    .back-coffeedia, .back-menu, .back-about, .back-contacts{
+        height: 100px;
+    }
+}
