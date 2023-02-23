@@ -36,7 +36,6 @@ ul{
 }
 h3{
     font-size: calc(100px + 1vw);
-    line-height: calc(90px + 1vw);
     color: var(--golden);
     font-weight: 600;   
 }
@@ -487,7 +486,7 @@ nav ul li span:nth-child(4) {
 
 .header-coffee h2{
     color: #fff;
-    letter-spacing: 20px;
+    letter-spacing: 1vw;
     font-size: 2rem;
 }
 .coffeedia{
@@ -497,10 +496,11 @@ nav ul li span:nth-child(4) {
 .coffeedia-1{
     width: 80%;
     margin: 0px auto;
+    
 }
 .header-coffeedia h1{
-    letter-spacing: 2vw;
-    font-size: 3rem;
+    letter-spacing: 1vw;
+    font-size: 2rem;
     text-transform: uppercase;
     color: rgb(255, 174, 0);
     background-color: rgb(168, 85, 2);
@@ -552,7 +552,7 @@ nav ul li span:nth-child(4) {
 }
 .coffeedia-col-1 h3{
     margin-top: 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .coffeedia-col-1 p{
@@ -618,7 +618,11 @@ nav ul li span:nth-child(4) {
 }
 .header-container h3{
     font-size: 3vw;
-    text-align: left;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5vw;
+    line-height: 5vh;
 }
 .menu h3{
     background-color: rgb(168, 85, 2);
@@ -636,6 +640,7 @@ nav ul li span:nth-child(4) {
     width: 80%;
     margin: 0 auto;
     background-color: var(--cream);
+    border-radius: 15px;
 }
 .menu-2 h3{
     font-size: 5vw;
@@ -680,7 +685,7 @@ nav ul li span:nth-child(4) {
     width: 100%;
     font-weight: 600;
     color:  rgb(255, 174, 0);
-    font-size: 26px;
+    font-size: 3vw;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -691,7 +696,7 @@ nav ul li span:nth-child(4) {
     bottom: 49%;
     opacity: 1;
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 0.5rem;
     color: #fff;
 }
 
