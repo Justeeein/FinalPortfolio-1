@@ -24,7 +24,7 @@ html{
     height: -webkit-fill-available;
 }
 .logo{
-    width: 20%;
+    width: 15%;
     margin-left: 5px 0 0 20%;
 }
 /*      GLOBAL CLASS            */
@@ -834,7 +834,7 @@ nav ul li span:nth-child(4) {
     color: var(--medyo-dark-brown);
     font-weight: 500;
     font-size: 2vw;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 @media (max-width: 1000px) {
     .container-1-about{
@@ -1168,7 +1168,7 @@ textarea:valid~label{
       margin: 0 auto;
       font: bold 16px sans-serif;
       text-align: left;
-      padding: 10px 40px 2.5px;
+      padding: 10px 40px 0px;
       overflow: hidden;
   }
   
@@ -1191,6 +1191,7 @@ textarea:valid~label{
   .footer-distributed .footer-links{
       color:  #ffffff;
       padding: 0;
+      vertical-align: middle;
   }
   
   .footer-distributed .footer-links a{
@@ -1201,7 +1202,7 @@ textarea:valid~label{
   
   .footer-distributed .footer-company-name{
       color: rgb(226, 186, 4);
-      font-size: 20px;
+      font-size: 15px;
       font-weight: normal;
       font-family: 'Abril Fatface', cursive;
       vertical-align: middle;
